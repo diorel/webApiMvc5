@@ -1,0 +1,15 @@
+GO
+CREATE DATABASE WebAPIDemo
+GO
+use WebAPIDemo
+
+CREATE TABLE Person
+(
+PersonID int primary KEY,
+Name Varchar(MAX),
+Age int
+)
+
+INSERT INTO Person VALUES(1,'raul',29)
+--DROP TABLE Person
+--SELECT * FROM Person
